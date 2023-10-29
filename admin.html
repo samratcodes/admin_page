@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Admin pannel</title>
+</head>
+<body>
+   <header>
+         <div class="title">
+             Admin Pannel of School
+            </div>
+       <div class="logout">
+              <a href="#">Logout</a>
+              <i class="fa-solid fa-right-from-bracket"></i>
+       </div>
+   </header> 
+   <main>
+    <div class="sidebar">
+        <div class="profile">
+         <div class="profile_image">
+          <i class="fa-solid fa-user"></i>
+         </div> 
+         <div class="sidebar_name">
+    Samrat Sapkota
+</div>
+        </div>
+
+<div class="sidebar_menu">
+
+<ul>
+    <li>
+        <a href="#" class="active" id="home"> Home</a>
+    </li>
+    <li>
+        <a href="#" class="inactive  logout2" id="create"> <div class="text">Create &nbsp; </div>  
+             <i class="fa-solid fa-caret-down"></i> </a>
+        <ul class="dropdown1">
+            <li><a href="#" class="inactive">Class</a></li>
+            <li><a href="#" class="inactive">Teacher</a></li>
+            <li><a href="#" class="inactive">Staffs</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a href="#" class="inactive logout2" id="Accounts">
+            <div class="text">Accounts &nbsp; </div>  
+             <i class="fa-solid fa-caret-down"></i></a>
+        <ul class="dropdown2">
+            <li><a href="#" class="inactive">Salary</a></li>
+            <li><a href="#" class="inactive">Fees</a></li>
+        
+        </ul>
+    </li>
+    <li >
+        <a href="#" class="inactive logout2" id="logout">
+          <div class="text">Logout &nbsp; </div>  
+              <i class="fa-solid fa-right-from-bracket"></i>
+        </a>
+      
+    </li>
+</ul>
+</div>
+
+</div>
+    </div>
+    <div class="dashboard">
+      <div class="piechart dash">
+        <img src="https://plotdigitizer.com/src/media/img/21/how-extract-data-pie-diagram.png" alt="">
+      </div>
+      <div class="graph dash">
+        <img src="https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/graph-wiki_ver_1.png" alt="">
+      </div>
+      <div class="vendiagram dash">
+        <img src="https://cdn.sanity.io/images/599r6htc/localized/219d528d005d059d8d458dac42fd7bb96a5ada3c-1108x1108.png?w=514&h=514&q=75&fit=max&auto=format" alt="">
+      </div>
+      <div class="treemap dash">
+        <img src="https://apexcharts.com/wp-content/uploads/2020/09/distributed-treemap.png" alt="">
+      </div>
+    </div>
+
+   </main>
+<script src="admin.js"></script>
+</body>
+</html>
